@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/walker-basic.iml" filepath="$PROJECT_DIR$/.idea/modules/walker-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/walker-basic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/walker-basic_main.iml" group="walker-basic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/walker-basic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/walker-basic_test.iml" group="walker-basic" />
+    </modules>
+  </component>
+</project>

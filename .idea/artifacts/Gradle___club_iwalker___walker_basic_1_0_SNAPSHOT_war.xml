@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : club.iwalker : walker-basic-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/walker-basic</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="walker-basic-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="walker-basic_main/web/Web Gradle : walker-basic-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="walker-basic_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-test:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.10" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.5" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.10" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/walker-basic/exploded/walker-basic-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
