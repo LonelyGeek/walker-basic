@@ -15,7 +15,7 @@ import java.nio.charset.Charset;
 
 @Configuration
 @ComponentScan("club.iwalker.basic.el")
-@PropertySource("classpath:club/iwalker/basic/el/el.properties")//7
+@PropertySource("classpath:el.properties")//7
 public class ELConfig {
 	
 	@Value("I Love You!") //1
@@ -30,10 +30,10 @@ public class ELConfig {
 	@Value("#{beanService.beanInfo}") //4
 	private String fromBeanInfo;
 
-	@Value("classpath:club/iwalker/basic/el/el.txt") //5
+	@Value("classpath:el.txt") //5
 	private Resource elFile;
 
-	@Value("http://www.google.com") //6
+	@Value("http://www.baidu.com") //6
 	private Resource webUrl;
 
 	@Value("${iwalker.info}") //7
